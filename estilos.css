@@ -105,11 +105,6 @@ h2 {
   padding: 2rem;
   border-radius: 1rem;
 }
-
-.form fieldset {
-  border: none;
-}
-=======
 .form fieldset {
   border: none;
 }
@@ -123,18 +118,12 @@ h2 {
 
 }
 
->>>>>>> Stashed changes
 .form legend {
   text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
-<<<<<<< Updated upstream
-  color: var(--primario);
-}
-=======
-  color: white;
 }
 
 .boton-comprobacion{
@@ -158,4 +147,3 @@ div.boton-comprobacion > input[type="submit"]{
   color: rgb(29, 29, 29);
 
 }
->>>>>>> Stashed changes
