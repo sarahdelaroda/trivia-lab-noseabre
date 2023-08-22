@@ -8,6 +8,13 @@ boton.addEventListener('click',function(){
 })
 
 
+function eligeCategoria(params) {
+    var categoria= document.getElementById('');
+    window.location.href = `categoria-cine?category=${category}`;
+
+
+}
+
 
 
 
