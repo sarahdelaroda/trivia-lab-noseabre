@@ -5,8 +5,6 @@
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
 }
 
 * {
@@ -91,10 +89,15 @@ h2 {
 }
 
 /*Css Categoria*/
-.form{
-  padding: 5rem;
+.form {
+  background-color: #6ea9c9;
+  width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
+<<<<<<< Updated upstream
 
 .form {
   background-color: white;
@@ -106,11 +109,53 @@ h2 {
 .form fieldset {
   border: none;
 }
+=======
+.form fieldset {
+  border: none;
+}
+
+.pregunta-area{
+  display: grid;
+  background-color: #2e91c6;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
+
+>>>>>>> Stashed changes
 .form legend {
   text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
+<<<<<<< Updated upstream
   color: var(--primario);
 }
+=======
+  color: white;
+}
+
+.boton-comprobacion{
+  display: flex;
+  justify-content: center;
+}
+
+div.boton-comprobacion > input[type="submit"]{
+  background-color: #ffffff;
+  border-color: #2364b1;
+  border-width: 3px;
+  color:#2364b1;
+  text-transform: uppercase;
+}
+
+.respuestas-area{
+  padding: 1rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(29, 29, 29);
+
+}
+>>>>>>> Stashed changes
