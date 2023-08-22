@@ -95,3 +95,22 @@ h2 {
   padding: 5rem;
 }
 
+
+.form {
+  background-color: white;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.form fieldset {
+  border: none;
+}
+.form legend {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--primario);
+}
